@@ -8,7 +8,7 @@ interface Book {
 class B implements Book {
 
     name = 'abc';
-    author = 'asf'
+    author = 'asssf'
 
 }
 
