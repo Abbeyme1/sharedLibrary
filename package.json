@@ -1,0 +1,21 @@
+{
+  "name": "@ticketary/sharedlibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "npm run del && tsc",
+    "del": "del-cli ./build/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.6.2"
+  }
+}
